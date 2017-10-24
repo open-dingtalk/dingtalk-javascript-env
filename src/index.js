@@ -2,7 +2,7 @@ import whichOneRuntime from './whichOneRuntime.js';
 import environment from './environment.js';
 import { RUNTIME, FRAMEWORK } from './constants.js';
 
-export const [ runtime, framework ] = whichOneRuntime().split('.');
+const [ runtime, framework ] = whichOneRuntime().split('.');
 
 function getVirtualEnv(){
   let containerEnv = {};

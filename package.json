@@ -1,6 +1,6 @@
 {
   "name": "dingtalk-javascript-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "钉钉容器系统环境对象",
   "main": "lib/index.js",
   "scripts": {
