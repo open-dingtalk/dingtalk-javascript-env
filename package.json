@@ -1,0 +1,25 @@
+{
+  "name": "dingtalk-javascript-env",
+  "version": "1.0.0",
+  "description": "钉钉容器系统环境对象",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib --copy-files --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-dingtalk/dingtalk-javascript-env.git"
+  },
+  "keywords": [],
+  "author": "icepy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-dingtalk/dingtalk-javascript-env/issues"
+  },
+  "homepage": "https://github.com/open-dingtalk/dingtalk-javascript-env#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
