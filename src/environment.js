@@ -4,7 +4,7 @@ export default function environment(runtime,framework,virtualEnv){
   const isWeb = virtualEnv.platform === 'Web';
   const isWeexiOS = virtualEnv.platform === 'iOS';
   const isWeexAndroid = virtualEnv.platform === 'android';
-  const isWeex = isWeexAndroid && isWeexiOS;
+  const isWeex = isWeexAndroid || isWeexiOS;
   const UA = (() => {
     if(isWeb){
       return window.navigator.userAgent.toLowerCase();
